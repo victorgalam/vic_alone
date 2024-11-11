@@ -183,7 +183,7 @@ const LocationsMap = () => {
                     </div>
 
                     {/* מפה */}
-                    <LoadScript googleMapsApiKey="AIzaSyCwQtPxiF-P43WXmrcOHqQn1ULmzp25QwI" libraries={['places']}>
+                    <LoadScript  libraries={['places']}>
                         <GoogleMap
                             mapContainerStyle={mapStyles}
                             zoom={14}
